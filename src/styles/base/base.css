@@ -1,0 +1,28 @@
+#root {
+  background-color: var(--primary-color);
+  /* background-color: #13111d; */
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+}
+body {
+  margin: 0;
+}
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 19fr;
+  z-index: 2;
+  padding: 1rem;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 63.5%;
+}
+.maincontent {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 1rem;
+}

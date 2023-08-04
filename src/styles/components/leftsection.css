@@ -1,0 +1,188 @@
+.leftsection {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* hero  */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: safe;
+  align-items: center;
+}
+.heroimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.heroimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.herotext {
+  position: relative;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.herotext__tag {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  background-color: brown;
+  padding: 0.5rem;
+  align-self: flex-start;
+  border-radius: 1rem;
+}
+.herotext__title {
+  color: white;
+  font-size: 3rem;
+  font-family: "poppinsbold", sans-serif;
+}
+.herotext__description {
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+}
+.herotext__price {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.herotext__price__old {
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 1.5rem;
+  font-family: "poppinsbold", sans-serif;
+  text-decoration: line-through;
+  /* margin-right: 1rem; */
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0.3rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+.herotext__price__new {
+  color: white;
+  font-size: 2rem;
+  font-family: "poppinsbold", sans-serif;
+  background-color: rgba(0, 0, 0, 0.903);
+  padding: 0.3rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+.herotext__price__sold {
+  color: white;
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+  background-color: brown;
+  font-family: "poppins", sans-serif;
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+}
+.herotext__button {
+  position: absolute;
+  bottom: 5rem;
+  right: 3rem;
+  background-color: var(--primary-dark);
+  color: white;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+.hero__icon {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+/* end hero  */
+
+.leftsection__section__title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "poppinsbold", sans-serif;
+  margin-bottom: 1rem;
+  color: var(--primary-dark);
+}
+.leftsection__section__title__icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--primary-dark);
+  margin-right: 1rem;
+  stroke: var(--primary-dark);
+  stroke-width: 3px;
+}
+
+/* cards  */
+.leftsection__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 18rem));
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.bestseller__card {
+  width: 100%;
+  height: 25rem;
+  position: relative;
+}
+.bestseller__card__title {
+  font-size: 1.5rem;
+  font-family: "poppinsbold", sans-serif;
+  color: var(--primary-dark);
+}
+.bestseller__card__image {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+.bestseller__card__title {
+}
+.bestseller__card__price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.bestseller__card__price__old {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+  text-decoration: line-through;
+}
+.bestseller__card__price__new {
+  color: var(--primary-dark);
+  font-size: 1.5rem;
+  font-family: "poppinsbold", sans-serif;
+}
+.bestseller__card__price__sold {
+  color: white;
+  font-size: 0.7rem;
+  font-family: "poppins", sans-serif;
+  background-color: brown;
+  font-family: "poppins", sans-serif;
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+}
+.card__glow {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3rem 0rem 7rem 5rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}

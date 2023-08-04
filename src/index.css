@@ -1,0 +1,17 @@
+@import "styles/base/base.css";
+@import "styles/base/utilities.css";
+@import "styles/base/variable.css";
+@font-face {
+  font-family: "poppins";
+  src: url("/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "poppinsbold";
+  src: url("/poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "poppinslight";
+  src: url("/poppins/Poppins-ExtraLight.ttf");
+  font-weight: 300;
+}
