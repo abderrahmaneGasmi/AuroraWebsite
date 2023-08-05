@@ -3,13 +3,19 @@ import "../styles/assets/customtoggle.css";
 import { motion } from "framer-motion";
 import Svg from "./Svg";
 import { moon, sun } from "../Constants/svgs";
-
+import { useTheme } from "../hooks/useTheme";
+import { AppThemeContextProps } from "../context/AppTheme";
 export default function CustomToggle() {
-  const [toggled, setToggled] = useState(false);
+  const { changetheme, theme } = useTheme() as AppThemeContextProps;
+
+  const [toggled, setToggled] = useState(theme === "dark");
   return (
     <motion.div
       className="togglecontainer"
-      onClick={() => setToggled(!toggled)}
+      onClick={() => {
+        setToggled(!toggled);
+        changetheme();
+      }}
       animate={{
         backgroundColor: toggled ? "#f2e2ab" : "#092d3e",
       }}

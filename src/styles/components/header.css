@@ -11,10 +11,11 @@
   font-family: sans-serif;
   font-weight: 300;
   font-family: "poppinslight";
+  color: var(--lightgray);
 }
 .logoname span {
   font-weight: 700;
-  color: var(--primary-dark);
+  color: var(--logo);
   font-family: "poppinsbold";
 }
 
@@ -25,10 +26,11 @@
   width: 30rem;
   height: 2rem;
   border-radius: 1rem;
-  background-color: var(--primary-light);
+  background-color: var(--search);
   padding: 1rem;
   margin: 0 1rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  /* border: 1px solid var(--text); */
 }
 .search input {
   width: 100%;
@@ -42,11 +44,12 @@
   font-weight: 300;
   font-family: "poppinslight";
   background-color: transparent;
+  color: var(--text);
 }
 .search__icon {
   width: 2rem;
   height: 2rem;
-  fill: var(--primary-dark);
+  fill: var(--logo);
 }
 .buttons {
   display: flex;
@@ -69,4 +72,63 @@
   padding: 0.5rem 5rem;
   cursor: pointer;
   border-radius: 2rem;
+}
+
+.user__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+.user__nav__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.user__nav__info__image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user__nav__info__extra {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 1rem; */
+}
+.user__nav__info__extra__name {
+  font-size: 1.3rem;
+  font-family: "poppinsbold";
+  color: var(--text);
+}
+.user__nav__info__extra__level {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.user__nav__info__extra__level__icon {
+  color: #eee;
+  background-color: var(--logo);
+  padding: 0.2rem 0.7rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-family: "poppinslight";
+}
+.user__nav__info__extra__level__text {
+  font-size: 1.2rem;
+  font-family: "poppinslight";
+  font-weight: 300;
+  font-family: "poppinslight";
+  color: var(--text);
+}
+.user__nav__icon {
+  width: 2rem;
+  height: 2rem;
+  /* fill: var(--logo); */
+  fill: white;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: var(--logo);
+  cursor: pointer;
 }

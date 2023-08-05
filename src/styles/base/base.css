@@ -1,6 +1,6 @@
 #root {
-  background-color: var(--primary-color);
-  /* background-color: #13111d; */
+  background-color: var(--background);
+  /* background-color: #1d1449; */
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;

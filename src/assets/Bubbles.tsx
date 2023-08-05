@@ -5,7 +5,10 @@ import "../styles/assets/bubbles.css";
 const linearcolor = [
   "linear-gradient(to right top, #36f8e1, #3ed9c3, #40bba7, #3f9d8c, #3b8172)",
   "linear-gradient(to right top, #e9d42e, #f3b90b, #fa9c00, #ff7c0a, #ff5821)",
-  "linear-gradient(to right top, #f02a67, #e32655, #d42443, #c52333, #b62323)",
+  // "linear-gradient(to right top, #f02a67, #e32655, #d42443, #c52333, #b62323)",
+  " linear-gradient(to right top, #b0ff00, #aefa05, #acf50a, #aaf00f, #a8eb12)",
+  "linear-gradient(to right top, #ff00b0, #fa04a8, #f508a0, #f00d98, #eb1291)",
+  " linear-gradient(to right top, #00d8ff, #01d6fa, #05d5f5, #0bd3f0, #12d1eb)",
   "linear-gradient(to right top, #9d2af0, #8b29e2, #7928d3, #6926c5, #5823b6)",
 ];
 

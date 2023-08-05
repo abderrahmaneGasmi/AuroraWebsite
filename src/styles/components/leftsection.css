@@ -91,7 +91,7 @@
   position: absolute;
   bottom: 5rem;
   right: 3rem;
-  background-color: var(--primary-dark);
+  background-color: var(--logo);
   color: white;
   font-size: 1.5rem;
   font-family: "poppins", sans-serif;
@@ -113,14 +113,14 @@
   font-size: 2rem;
   font-family: "poppinsbold", sans-serif;
   margin-bottom: 1rem;
-  color: var(--primary-dark);
+  color: var(--text);
 }
 .leftsection__section__title__icon {
   width: 2rem;
   height: 2rem;
-  fill: var(--primary-dark);
+  fill: var(--text);
   margin-right: 1rem;
-  stroke: var(--primary-dark);
+  stroke: var(--text);
   stroke-width: 3px;
 }
 
@@ -139,7 +139,7 @@
 .bestseller__card__title {
   font-size: 1.5rem;
   font-family: "poppinsbold", sans-serif;
-  color: var(--primary-dark);
+  color: var(--text);
 }
 .bestseller__card__image {
   width: 100%;
@@ -155,13 +155,13 @@
   gap: 1rem;
 }
 .bestseller__card__price__old {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--logo);
   font-size: 1rem;
   font-family: "poppins", sans-serif;
   text-decoration: line-through;
 }
 .bestseller__card__price__new {
-  color: var(--primary-dark);
+  color: var(--text);
   font-size: 1.5rem;
   font-family: "poppinsbold", sans-serif;
 }
